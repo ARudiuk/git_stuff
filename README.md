@@ -13,5 +13,5 @@ git rebase origin/master
 git branch -D LOCAL_BRANCH_TO_DELETE
 git push origin :REMOTE_BRANCH_TO_DELETE
 git push --force origin MY_BRANCH:REMOTE_BRANCH \\erase the stupid shit i committed
-git rebase -i
+git rebase -i HEAD~#
 ```
